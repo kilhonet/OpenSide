@@ -43,7 +43,7 @@ Pour l'IA elle-même, connectez-vous avec un compte ChatGPT que vous possédez d
 | Portable (ZIP) | [Télécharger](https://down.kilho.net/openside?lang=fr&nosetup) |
 | macOS (dmg) | [Télécharger](https://down.kilho.net/openside?lang=fr&mac) |
 
-L'installateur lance OpenSide dès la fin de l'installation. Pour l'édition portable, décompressez le ZIP et lancez `OpenSide.exe`. Les deux éditions ont les mêmes fonctions ; seule la valeur initiale de **Lancer à l'ouverture de session** diffère — activée pour l'installateur, désactivée pour l'édition portable.
+L'installateur lance OpenSide dès la fin de l'installation. Pour l'édition portable, décompressez le ZIP et lancez `OpenSide.exe`. Les deux éditions ont les mêmes fonctions ; seule la valeur initiale de **Lancer au démarrage** diffère — activée pour l'installateur, désactivée pour l'édition portable.
 
 Sur macOS, ouvrez le dmg et faites glisser OpenSide dans le dossier Applications. Sur Mac, OpenSide travaille dans Chrome : activez **Remote debugging** comme l'indique la fenêtre de connexion, saisissez le numéro de port affiché sur cette page et cliquez sur **Connecter**.
 
@@ -128,7 +128,7 @@ Dites par exemple « Ouvre le site de ce fleuriste que j'ai visité la dernière
 2. Scannez le QR code avec l'appareil photo du téléphone. Quand Telegram s'ouvre, touchez **Démarrer**. Si Telegram est installé sur votre PC, vous pouvez aussi cliquer sur **Ouvrir sur ce PC**.
 3. Quand Telegram affiche un message indiquant que la connexion est établie, c'est terminé. Envoyez maintenant une tâche par message texte dans Telegram, et OpenSide sur votre PC l'exécute et vous renvoie la réponse.
 
-Les fichiers créés et les demandes comme « veuillez saisir le code de vérification » arrivent aussi sur votre téléphone. Répondez avec le code dans Telegram et il est transmis à la tâche en cours. Si une réponse est longue, le début arrive en message et le texte complet en fichier. Telegram n'accepte que du texte : envoyez des mots plutôt que des photos. OpenSide doit être lancé sur votre PC pour travailler ; activer **Lancer à l'ouverture de session** est donc pratique quand vous utilisez le contrôle à distance. Pour le désactiver un moment, cliquez sur l'icône **Contrôle à distance** dans l'écran du chat ; pour le déconnecter complètement, cliquez sur **Dissocier**.
+Les fichiers créés et les demandes comme « veuillez saisir le code de vérification » arrivent aussi sur votre téléphone. Répondez avec le code dans Telegram et il est transmis à la tâche en cours. Si une réponse est longue, le début arrive en message et le texte complet en fichier. Telegram n'accepte que du texte : envoyez des mots plutôt que des photos. OpenSide doit être lancé sur votre PC pour travailler ; activer **Lancer au démarrage** est donc pratique quand vous utilisez le contrôle à distance. Pour le désactiver un moment, cliquez sur l'icône **Contrôle à distance** dans l'écran du chat ; pour le déconnecter complètement, cliquez sur **Dissocier**.
 
 **Utiliser plusieurs comptes IA**
 Dans **Préférences** → **Compte**, cliquez sur **Ajouter** pour voir les types disponibles.
@@ -151,7 +151,7 @@ Cliquez sur **Sessions récentes** pour voir vos 15 dernières discussions avec 
 Chaque fois qu'elle termine une tâche, l'IA garde ce qui est confirmé — comment utiliser un site, des faits que vous lui avez donnés — et s'en sert dans les discussions suivantes. Plus vous lui confiez de tâches sur un même site, moins elle tâtonne.
 
 **La garder lancée après avoir fermé la fenêtre**
-Cliquer sur la × de la fenêtre ne quitte pas l'application : OpenSide passe dans la zone de notification (barre d'état système). Cliquez sur son icône pour rappeler la fenêtre. Pour quitter complètement, faites un clic droit sur l'icône et choisissez **Quitter**. **Lancer au démarrage** dans ce même menu est le même réglage que **Lancer à l'ouverture de session** dans **Préférences** ; s'il est activé, OpenSide démarre discrètement dans la zone de notification au démarrage de Windows. Une seule copie d'OpenSide tourne à la fois ; la relancer ramène au premier plan la fenêtre déjà ouverte.
+Cliquer sur la × de la fenêtre ne quitte pas l'application : OpenSide passe dans la zone de notification (barre d'état système). Cliquez sur son icône pour rappeler la fenêtre. Pour quitter complètement, faites un clic droit sur l'icône et choisissez **Quitter**. Si **Lancer au démarrage** est activé dans **Préférences**, OpenSide démarre discrètement dans la zone de notification au démarrage de Windows. Une seule copie d'OpenSide tourne à la fois ; la relancer ramène au premier plan la fenêtre déjà ouverte.
 
 **Garder la fenêtre d'OpenSide au premier plan**
 Pour garder OpenSide à côté de votre navigateur pendant que vous suivez, réglez **Toujours au premier plan** sur **Activé** dans **Préférences** → **Général**. La position et la taille de la fenêtre sont mémorisées ; elle s'ouvre au même endroit la fois suivante.
@@ -168,7 +168,7 @@ Cliquez sur **Paramètres** pour ouvrir la fenêtre **Préférences**. Les chang
 
 | Onglet | Options |
 |---|---|
-| **Général** | **Toujours au premier plan** · **Thème** (Auto · Clair · Sombre) · **Langue** (Auto ou l'une des 22 langues) · **Lancer à l'ouverture de session** |
+| **Général** | **Toujours au premier plan** · **Thème** (Auto · Clair · Sombre) · **Langue** (Auto ou l'une des 22 langues) · **Lancer au démarrage** |
 | **Compte** | Ajouter, supprimer et connecter des comptes IA · choisir le compte par défaut |
 | **À distance** | Associer ou dissocier Telegram |
 | **Historique** | Activer l'enregistrement des pages et applis · pause · sites et applis à ne pas enregistrer · tout supprimer |

@@ -43,7 +43,7 @@ For the AI itself, sign in with a ChatGPT account you already have, or enter a C
 | Portable (ZIP) | [Download](https://down.kilho.net/openside?lang=en&nosetup) |
 | macOS (dmg) | [Download](https://down.kilho.net/openside?lang=en&mac) |
 
-The installer starts OpenSide as soon as installation finishes. For the portable edition, unzip it and run `OpenSide.exe`. Both editions have the same features; only the initial value of **Run at startup** differs — on for the installer, off for the portable edition.
+The installer starts OpenSide as soon as installation finishes. For the portable edition, unzip it and run `OpenSide.exe`. Both editions have the same features; only the initial value of **Run at boot** differs — on for the installer, off for the portable edition.
 
 On macOS, open the dmg and drag OpenSide to the Applications folder. On a Mac, OpenSide works in Chrome: turn on **Remote debugging** as the connection window explains, then type the port number shown on that page and click **Connect**.
 
@@ -128,7 +128,7 @@ Say something like "Open that flower shop site I visited last time", and it find
 2. Scan the QR code with your phone's camera. When Telegram opens, tap **Start**. If Telegram is installed on your PC, you can click **Open on this PC** instead.
 3. When Telegram shows a message that it is connected, you are done. Now send a job as a text message in Telegram, and OpenSide on your PC does it and sends the answer back.
 
-Files it makes and requests such as "please enter the verification code" also come to your phone. Reply with the code in Telegram and it goes to the task in progress. If an answer is long, the start comes as a message and the full text as a file. Telegram only accepts text, so send words rather than photos. OpenSide must be running on your PC to work, so turning on **Run at startup** helps when you use the remote. To turn the remote off for a while, click the **Remote control** icon in the chat screen; to disconnect completely, click **Unlink**.
+Files it makes and requests such as "please enter the verification code" also come to your phone. Reply with the code in Telegram and it goes to the task in progress. If an answer is long, the start comes as a message and the full text as a file. Telegram only accepts text, so send words rather than photos. OpenSide must be running on your PC to work, so turning on **Run at boot** helps when you use the remote. To turn the remote off for a while, click the **Remote control** icon in the chat screen; to disconnect completely, click **Unlink**.
 
 **Use several AI accounts**
 Under **Preferences** → **Account**, click **Add** to see the kinds you can choose.
@@ -151,7 +151,7 @@ Click **Recent sessions** to see your latest 15 chats with when you last used th
 Each time it finishes a job, the AI keeps confirmed things — how to use a site, facts you told it — and uses them in later chats. The more often you give it jobs on the same site, the less it fumbles.
 
 **Keep it running after closing the window**
-Clicking × on the window does not quit; OpenSide moves to the notification area (tray). Click the tray icon to bring the window back. To quit completely, right-click the tray icon and choose **Quit**. **Run at boot** in the same menu is the same setting as **Run at startup** in **Preferences**; with it on, OpenSide starts quietly in the tray when Windows starts. Only one copy of OpenSide runs; running it again brings the open window to the front.
+Clicking × on the window does not quit; OpenSide moves to the notification area (tray). Click the tray icon to bring the window back. To quit completely, right-click the tray icon and choose **Quit**. With **Run at boot** on in **Preferences**, OpenSide starts quietly in the tray when Windows starts. Only one copy of OpenSide runs; running it again brings the open window to the front.
 
 **Keep the OpenSide window in front**
 To keep OpenSide beside your browser while you watch, set **Always on top** to **On** under **Preferences** → **General**. The window position and size are remembered, so it opens in the same place next time.
@@ -168,7 +168,7 @@ Click **Settings** to open the **Preferences** window. Changes take effect immed
 
 | Tab | Items |
 |---|---|
-| **General** | **Always on top** · **Theme** (Auto · Light · Dark) · **Language** (Auto or one of 22 languages) · **Run at startup** |
+| **General** | **Always on top** · **Theme** (Auto · Light · Dark) · **Language** (Auto or one of 22 languages) · **Run at boot** |
 | **Account** | Add, delete and sign in to AI accounts · choose the default account |
 | **Remote** | Link or unlink Telegram |
 | **Context** | Turn page and app recording on · pause · sites and apps not to record · delete all |

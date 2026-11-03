@@ -43,7 +43,7 @@ Para la IA, inicia sesión con una cuenta de ChatGPT que ya tengas o introduce u
 | Portátil (ZIP) | [Descargar](https://down.kilho.net/openside?lang=es&nosetup) |
 | macOS (dmg) | [Descargar](https://down.kilho.net/openside?lang=es&mac) |
 
-El instalador abre OpenSide en cuanto termina la instalación. Con la edición portátil, descomprime el ZIP y ejecuta `OpenSide.exe`. Ambas ediciones tienen las mismas funciones; solo cambia el valor inicial de **Ejecutar al iniciar**: activado en el instalador y desactivado en la portátil.
+El instalador abre OpenSide en cuanto termina la instalación. Con la edición portátil, descomprime el ZIP y ejecuta `OpenSide.exe`. Ambas ediciones tienen las mismas funciones; solo cambia el valor inicial de **Ejecutar al arrancar**: activado en el instalador y desactivado en la portátil.
 
 En macOS, abre el dmg y arrastra OpenSide a la carpeta Aplicaciones. En Mac, OpenSide trabaja en Chrome: activa **Remote debugging** como indica la ventana de conexión, escribe el número de puerto que muestra esa página y pulsa **Conectar**.
 
@@ -128,7 +128,7 @@ Di algo como «Abre la web de esa floristería que visité la última vez» y la
 2. Escanea el QR con la cámara del teléfono. Cuando se abra Telegram, toca **Iniciar**. Si tienes Telegram instalado en el PC, también puedes hacer clic en **Abrir en este PC**.
 3. Cuando Telegram muestre un mensaje de que está conectado, ya está. Ahora envía una tarea como mensaje de texto en Telegram, y OpenSide en tu PC la hace y te devuelve la respuesta.
 
-Los archivos que genera y peticiones como «introduce el código de verificación» también llegan al teléfono. Responde con el código en Telegram y llega a la tarea en curso. Si una respuesta es larga, el principio llega como mensaje y el texto completo como archivo. Telegram solo acepta texto, así que envía palabras en lugar de fotos. OpenSide tiene que estar en marcha en tu PC para trabajar, así que conviene activar **Ejecutar al iniciar** cuando uses el control remoto. Para desactivarlo un rato, haz clic en el icono **Control remoto** en la pantalla del chat; para desconectarlo del todo, haz clic en **Desvincular**.
+Los archivos que genera y peticiones como «introduce el código de verificación» también llegan al teléfono. Responde con el código en Telegram y llega a la tarea en curso. Si una respuesta es larga, el principio llega como mensaje y el texto completo como archivo. Telegram solo acepta texto, así que envía palabras en lugar de fotos. OpenSide tiene que estar en marcha en tu PC para trabajar, así que conviene activar **Ejecutar al arrancar** cuando uses el control remoto. Para desactivarlo un rato, haz clic en el icono **Control remoto** en la pantalla del chat; para desconectarlo del todo, haz clic en **Desvincular**.
 
 **Usar varias cuentas de IA**
 En **Preferencias** → **Cuenta**, haz clic en **Añadir** para ver los tipos disponibles.
@@ -151,7 +151,7 @@ Haz clic en **Sesiones recientes** para ver tus 15 últimas conversaciones con c
 Cada vez que termina una tarea, la IA guarda lo que ha confirmado —cómo usar un sitio, datos que le diste— y lo usa en chats posteriores. Cuantas más tareas le des en el mismo sitio, menos titubea.
 
 **Mantenerla en marcha tras cerrar la ventana**
-Hacer clic en la × de la ventana no la cierra; OpenSide pasa al área de notificación (bandeja). Haz clic en el icono de la bandeja para recuperar la ventana. Para salir del todo, haz clic derecho en el icono y elige **Salir**. **Ejecutar al arrancar** en ese mismo menú es el mismo ajuste que **Ejecutar al iniciar** en **Preferencias**; si está activado, OpenSide se inicia discretamente en la bandeja al arrancar Windows. Solo se ejecuta una copia de OpenSide; abrirla de nuevo trae al frente la ventana ya abierta.
+Hacer clic en la × de la ventana no la cierra; OpenSide pasa al área de notificación (bandeja). Haz clic en el icono de la bandeja para recuperar la ventana. Para salir del todo, haz clic derecho en el icono y elige **Salir**. Si activas **Ejecutar al arrancar** en **Preferencias**, OpenSide se inicia discretamente en la bandeja al arrancar Windows. Solo se ejecuta una copia de OpenSide; abrirla de nuevo trae al frente la ventana ya abierta.
 
 **Mantener la ventana de OpenSide delante**
 Para tener OpenSide junto al navegador mientras miras, pon **Siempre visible** en **Activado** en **Preferencias** → **General**. La posición y el tamaño de la ventana se recuerdan, así que se abre en el mismo sitio la próxima vez.
@@ -168,7 +168,7 @@ Haz clic en **Configuración** para abrir la ventana **Preferencias**. Los cambi
 
 | Pestaña | Opciones |
 |---|---|
-| **General** | **Siempre visible** · **Tema** (Automático · Claro · Oscuro) · **Idioma** (Automático o uno de 22 idiomas) · **Ejecutar al iniciar** |
+| **General** | **Siempre visible** · **Tema** (Automático · Claro · Oscuro) · **Idioma** (Automático o uno de 22 idiomas) · **Ejecutar al arrancar** |
 | **Cuenta** | Añadir, eliminar e iniciar sesión en cuentas de IA · elegir la cuenta predeterminada |
 | **Remoto** | Vincular o desvincular Telegram |
 | **Historial** | Activar el registro de páginas y apps · pausar · sitios y apps que no se registran · eliminar todo |
