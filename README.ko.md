@@ -1,10 +1,10 @@
 # OpenSide
 
-**원하는 일을 채팅으로 적으면, AI 가 지금 쓰고 있는 크롬·엣지에서 검색부터 클릭·입력까지 대신 해 주는 Windows 무료 AI 비서.**
+**원하는 일을 채팅으로 적으면, AI 가 지금 쓰고 있는 크롬·엣지에서 검색부터 클릭·입력까지 대신 해 주는 Windows · macOS 무료 AI 비서.**
 
 [English](README.md) · 한국어 · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)%20%7C%20macOS%2013%2B-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/openside?lang=ko)
 
@@ -31,7 +31,7 @@ AI 는 가지고 있는 ChatGPT 계정으로 로그인하거나 Claude · OpenAI
 - **본 것 기억하기** — 켜 두면 내가 읽은 페이지와 쓴 프로그램을 기록해 두었다가 "어제 본 그 글" 같은 질문에 씁니다.
 - **자주 쓰는 사이트에 강함** — 네이버 블로그 · 티스토리 · 블로거 글쓰기, Gmail, 구글 문서 · 시트, 노션, 슬랙, 유튜브, 네이버 부동산 등은 사이트에 맞춘 방법으로 더 빠르고 정확하게 처리합니다.
 - **여러 AI 계정** — ChatGPT(Codex) 로그인과 Claude · OpenAI · Gemini API 키를 등록해 두고 채팅 화면에서 바로 바꿔 씁니다.
-- **다크 모드 · 9개 언어** — 한국어 · 영어 · 일본어 · 중국어 · 러시아어 · 이탈리아어 · 프랑스어 · 스페인어 · 아랍어.
+- **다크 모드 · 22개 언어** — 한국어 · 영어 · 일본어 · 중국어(간체 · 번체) · 스페인어 · 프랑스어 · 독일어 · 러시아어 · 아랍어 등.
 
 ## 다운로드 / 설치
 
@@ -39,8 +39,11 @@ AI 는 가지고 있는 ChatGPT 계정으로 로그인하거나 Claude · OpenAI
 |---|---|
 | 설치판 | [다운로드](https://down.kilho.net/openside?lang=ko) |
 | 무설치판 (ZIP) | [다운로드](https://down.kilho.net/openside?lang=ko&nosetup) |
+| macOS (dmg) | [다운로드](https://down.kilho.net/openside?lang=ko&mac) |
 
 설치판은 설치가 끝나면 OpenSide 를 바로 실행합니다. 무설치판은 ZIP 을 풀고 `OpenSide.exe` 를 실행하면 됩니다. 두 판의 기능은 같고, **시작할 때 실행** 의 처음 값만 다릅니다 — 설치판은 켜져 있고 무설치판은 꺼져 있습니다.
+
+macOS 판은 dmg 를 열어 OpenSide 를 응용 프로그램 폴더로 끌어다 놓습니다. 맥에서는 크롬에서 일합니다 — 연결 창이 안내하는 대로 **Remote debugging** 을 켠 뒤 그 페이지에 나오는 포트 번호를 적고 **연결하기** 를 누릅니다.
 
 ## 사용법
 
@@ -163,7 +166,7 @@ OpenSide 는 **Remote debugging** 을 켠 브라우저에서 일합니다. 둘 �
 
 | 탭 | 항목 |
 |---|---|
-| **일반** | **항상 위** · **테마**(자동 · 라이트 · 다크) · **언어**(자동 또는 9개 언어 중 하나) · **시작할 때 실행** |
+| **일반** | **항상 위** · **테마**(자동 · 라이트 · 다크) · **언어**(자동 또는 22개 언어 중 하나) · **시작할 때 실행** |
 | **계정** | AI 계정 추가 · 삭제 · 로그인 · 기본 계정 정하기 |
 | **원격** | 텔레그램 연동 · 연동 해제 |
 | **기록** | 본 페이지와 앱 기록 켜기 · 잠시 멈춤 · 기록하지 않을 사이트와 앱 · 전부 지우기 |
@@ -173,8 +176,8 @@ OpenSide 는 **Remote debugging** 을 켠 브라우저에서 일합니다. 둘 �
 
 ## 요구 사항
 
-- Windows 10 · Windows 11 (64비트)
-- Google Chrome 또는 Microsoft Edge
+- Windows 10 · Windows 11 (64비트), 또는 macOS 13 이상 (Intel · Apple Silicon)
+- Google Chrome 또는 Microsoft Edge (macOS 는 Chrome)
 - ChatGPT 계정, 또는 Claude · OpenAI · Gemini API 키
 - 인터넷 연결
 

@@ -1,12 +1,12 @@
 # OpenSide
 
-**Un asistente de IA gratuito para Windows: escribe en un chat lo que necesitas y la IA lo hace en el Chrome o Edge que ya usas, desde buscar hasta hacer clic y escribir.**
+**Un asistente de IA gratuito para Windows y macOS: escribe en un chat lo que necesitas y la IA lo hace en el Chrome o Edge que ya usas, desde buscar hasta hacer clic y escribir.**
 
 [English](README.md) · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · Español · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 > Este documento es una traducción. Si hay alguna diferencia, la [versión en coreano](README.ko.md) es la que prevalece.
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)%20%7C%20macOS%2013%2B-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/openside?lang=es)
 
@@ -33,7 +33,7 @@ Para la IA, inicia sesión con una cuenta de ChatGPT que ya tengas o introduce u
 - **Recuerda lo que viste** — si lo activas, registra las páginas que lees y las aplicaciones que usas, y las aprovecha en preguntas como «el artículo que leí ayer».
 - **Buena con sitios populares** — publicar en Naver Blog, Tistory y Blogger, Gmail, Google Docs y Sheets, Notion, Slack, YouTube, Naver Real Estate y más se manejan con métodos propios de cada sitio, más rápidos y precisos.
 - **Varias cuentas de IA** — registra el inicio de sesión de ChatGPT (Codex) y claves de API de Claude, OpenAI y Gemini, y cambia entre ellas desde el chat.
-- **Modo oscuro · 9 idiomas** — coreano, inglés, japonés, chino, ruso, italiano, francés, español y árabe.
+- **Modo oscuro · 22 idiomas** — coreano, inglés, japonés, chino (simplificado y tradicional), español, francés, alemán, ruso, árabe y más.
 
 ## Descarga / Instalación
 
@@ -41,8 +41,11 @@ Para la IA, inicia sesión con una cuenta de ChatGPT que ya tengas o introduce u
 |---|---|
 | Instalador | [Descargar](https://down.kilho.net/openside?lang=es) |
 | Portátil (ZIP) | [Descargar](https://down.kilho.net/openside?lang=es&nosetup) |
+| macOS (dmg) | [Descargar](https://down.kilho.net/openside?lang=es&mac) |
 
 El instalador abre OpenSide en cuanto termina la instalación. Con la edición portátil, descomprime el ZIP y ejecuta `OpenSide.exe`. Ambas ediciones tienen las mismas funciones; solo cambia el valor inicial de **Ejecutar al iniciar**: activado en el instalador y desactivado en la portátil.
+
+En macOS, abre el dmg y arrastra OpenSide a la carpeta Aplicaciones. En Mac, OpenSide trabaja en Chrome: activa **Remote debugging** como indica la ventana de conexión, escribe el número de puerto que muestra esa página y pulsa **Conectar**.
 
 ## Uso
 
@@ -165,7 +168,7 @@ Haz clic en **Configuración** para abrir la ventana **Preferencias**. Los cambi
 
 | Pestaña | Opciones |
 |---|---|
-| **General** | **Siempre visible** · **Tema** (Automático · Claro · Oscuro) · **Idioma** (Automático o uno de 9 idiomas) · **Ejecutar al iniciar** |
+| **General** | **Siempre visible** · **Tema** (Automático · Claro · Oscuro) · **Idioma** (Automático o uno de 22 idiomas) · **Ejecutar al iniciar** |
 | **Cuenta** | Añadir, eliminar e iniciar sesión en cuentas de IA · elegir la cuenta predeterminada |
 | **Remoto** | Vincular o desvincular Telegram |
 | **Historial** | Activar el registro de páginas y apps · pausar · sitios y apps que no se registran · eliminar todo |
@@ -175,8 +178,8 @@ Con **Idioma** en **Automático**, OpenSide sigue el idioma de visualización de
 
 ## Requisitos
 
-- Windows 10 · Windows 11 (64 bits)
-- Google Chrome o Microsoft Edge
+- Windows 10 · Windows 11 (64 bits), o macOS 13 o posterior (Intel · Apple Silicon)
+- Google Chrome o Microsoft Edge (en macOS, Chrome)
 - Una cuenta de ChatGPT, o una clave de API de Claude, OpenAI o Gemini
 - Conexión a internet
 

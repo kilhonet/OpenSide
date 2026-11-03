@@ -1,12 +1,12 @@
 # OpenSide
 
-**やりたいことをチャットで書くだけで、いま使っている Chrome・Edge で AI が検索からクリック・入力まで代わりにこなす、Windows 用の無料 AI アシスタント。**
+**やりたいことをチャットで書くだけで、いま使っている Chrome・Edge で AI が検索からクリック・入力まで代わりにこなす、Windows・macOS 用の無料 AI アシスタント。**
 
 [English](README.md) · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · 日本語 · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 > この文書は翻訳版です。内容に相違がある場合は[韓国語版](README.ko.md)が正となります。
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)%20%7C%20macOS%2013%2B-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/openside?lang=ja)
 
@@ -33,7 +33,7 @@ AI は、お持ちの ChatGPT アカウントでサインインするか、Claud
 - **見たものを覚える** — オンにしておくと、読んだページと使ったプログラムを記録しておき、「昨日見たあの記事」のような質問に使います。
 - **よく使うサイトに強い** — NAVER ブログ・Tistory・Blogger への投稿、Gmail、Google ドキュメント・スプレッドシート、Notion、Slack、YouTube、NAVER 不動産などは、サイトに合わせた方法でより速く正確に処理します。
 - **複数の AI アカウント** — ChatGPT(Codex)のサインインと Claude・OpenAI・Gemini の API キーを登録しておき、チャット画面ですぐ切り替えて使えます。
-- **ダークモード · 9 言語** — 韓国語・英語・日本語・中国語・ロシア語・イタリア語・フランス語・スペイン語・アラビア語。
+- **ダークモード · 22 言語** — 韓国語・英語・日本語・中国語(簡体字・繁体字)・スペイン語・フランス語・ドイツ語・ロシア語・アラビア語など。
 
 ## ダウンロード / インストール
 
@@ -41,8 +41,11 @@ AI は、お持ちの ChatGPT アカウントでサインインするか、Claud
 |---|---|
 | インストール版 | [ダウンロード](https://down.kilho.net/openside?lang=ja) |
 | ポータブル版 (ZIP) | [ダウンロード](https://down.kilho.net/openside?lang=ja&nosetup) |
+| macOS (dmg) | [ダウンロード](https://down.kilho.net/openside?lang=ja&mac) |
 
 インストール版は、インストールが終わるとすぐ OpenSide を起動します。ポータブル版は ZIP を展開して `OpenSide.exe` を実行するだけです。両方の機能は同じで、**ログイン時に実行** の初期値だけが違います — インストール版はオン、ポータブル版はオフです。
+
+macOS 版は dmg を開き、OpenSide をアプリケーションフォルダにドラッグします。Mac では Chrome で作業します — 接続ウィンドウの案内どおりに **Remote debugging** をオンにし、そのページに表示されるポート番号を入力して **接続** を押します。
 
 ## 使い方
 
@@ -165,7 +168,7 @@ OpenSide は **Remote debugging** をオンにしたブラウザーで作業し�
 
 | タブ | 項目 |
 |---|---|
-| **一般** | **常に手前に表示** · **テーマ**(自動 · ライト · ダーク) · **言語**(自動または 9 言語のいずれか) · **ログイン時に実行** |
+| **一般** | **常に手前に表示** · **テーマ**(自動 · ライト · ダーク) · **言語**(自動または 22 言語のいずれか) · **ログイン時に実行** |
 | **アカウント** | AI アカウントの追加 · 削除 · サインイン · 既定のアカウントの設定 |
 | **リモート** | Telegram の連携 · 連携解除 |
 | **記録** | 閲覧したページとアプリの記録のオン · 一時停止 · 記録しないサイトとアプリ · すべて削除 |
@@ -175,8 +178,8 @@ OpenSide は **Remote debugging** をオンにしたブラウザーで作業し�
 
 ## 動作環境
 
-- Windows 10 · Windows 11 (64 ビット)
-- Google Chrome または Microsoft Edge
+- Windows 10 · Windows 11 (64 ビット)、または macOS 13 以降 (Intel · Apple Silicon)
+- Google Chrome または Microsoft Edge (macOS は Chrome)
 - ChatGPT アカウント、または Claude・OpenAI・Gemini の API キー
 - インターネット接続
 

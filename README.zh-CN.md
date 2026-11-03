@@ -1,12 +1,12 @@
 # OpenSide
 
-**只需在聊天框写下想做的事，AI 就会在您正在使用的 Chrome · Edge 中替您完成从搜索到点击、输入的全部操作 —— Windows 免费 AI 助手。**
+**只需在聊天框写下想做的事，AI 就会在您正在使用的 Chrome · Edge 中替您完成从搜索到点击、输入的全部操作 —— Windows · macOS 免费 AI 助手。**
 
 [English](README.md) · [한국어](README.ko.md) · 简体中文 · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 > 本文档为翻译版本。如有出入,以[韩文版](README.ko.md)为准。
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)%20%7C%20macOS%2013%2B-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/openside?lang=zh)
 
@@ -33,7 +33,7 @@ AI 部分可以用您已有的 ChatGPT 账户登录，或填入 Claude · OpenAI
 - **记住看过的内容** —— 开启后会记录您读过的页面和用过的程序，用于回答"昨天看的那篇文章"之类的问题。
 - **擅长常用网站** —— NAVER 博客 · Tistory · Blogger 发文、Gmail、Google 文档 · 表格、Notion、Slack、YouTube、NAVER 房产等，用针对各网站的方法处理，更快更准确。
 - **多个 AI 账户** —— 登记 ChatGPT(Codex)登录以及 Claude · OpenAI · Gemini API 密钥，在聊天界面中随时切换。
-- **深色模式 · 9 种语言** —— 韩语 · 英语 · 日语 · 中文 · 俄语 · 意大利语 · 法语 · 西班牙语 · 阿拉伯语。
+- **深色模式 · 22 种语言** —— 韩语 · 英语 · 日语 · 中文(简体 · 繁体) · 西班牙语 · 法语 · 德语 · 俄语 · 阿拉伯语等。
 
 ## 下载 / 安装
 
@@ -41,8 +41,11 @@ AI 部分可以用您已有的 ChatGPT 账户登录，或填入 Claude · OpenAI
 |---|---|
 | 安装版 | [下载](https://down.kilho.net/openside?lang=zh) |
 | 免安装版 (ZIP) | [下载](https://down.kilho.net/openside?lang=zh&nosetup) |
+| macOS (dmg) | [下载](https://down.kilho.net/openside?lang=zh&mac) |
 
 安装版在安装完成后会立即运行 OpenSide。免安装版解压 ZIP 后运行 `OpenSide.exe` 即可。两个版本功能相同，只有 **启动时运行** 的初始值不同 —— 安装版为开启，免安装版为关闭。
+
+macOS 版打开 dmg，把 OpenSide 拖到"应用程序"文件夹即可。在 Mac 上 OpenSide 使用 Chrome —— 按连接窗口的提示打开 **Remote debugging**，再填入该页面显示的端口号并点击 **连接**。
 
 ## 使用方法
 
@@ -165,7 +168,7 @@ OpenSide 在开启了 **Remote debugging** 的浏览器中工作。两者都开�
 
 | 选项卡 | 项目 |
 |---|---|
-| **常规** | **窗口置顶** · **主题**(自动 · 浅色 · 深色) · **语言**(自动或 9 种语言之一) · **启动时运行** |
+| **常规** | **窗口置顶** · **主题**(自动 · 浅色 · 深色) · **语言**(自动或 22 种语言之一) · **启动时运行** |
 | **账户** | 添加 · 删除 · 登录 AI 账户 · 指定默认账户 |
 | **远程** | 关联 · 取消关联 Telegram |
 | **记录** | 开启页面和应用记录 · 暂停 · 不记录的网站和应用 · 全部删除 |
@@ -175,8 +178,8 @@ OpenSide 在开启了 **Remote debugging** 的浏览器中工作。两者都开�
 
 ## 系统要求
 
-- Windows 10 · Windows 11 (64 位)
-- Google Chrome 或 Microsoft Edge
+- Windows 10 · Windows 11 (64 位)，或 macOS 13 及以上 (Intel · Apple Silicon)
+- Google Chrome 或 Microsoft Edge (macOS 上为 Chrome)
 - ChatGPT 账户，或 Claude · OpenAI · Gemini API 密钥
 - 互联网连接
 

@@ -1,12 +1,12 @@
 # OpenSide
 
-**Un assistant IA gratuit pour Windows : écrivez ce dont vous avez besoin dans un chat, et l'IA s'en charge dans le Chrome ou l'Edge que vous utilisez déjà, de la recherche aux clics et à la saisie.**
+**Un assistant IA gratuit pour Windows et macOS : écrivez ce dont vous avez besoin dans un chat, et l'IA s'en charge dans le Chrome ou l'Edge que vous utilisez déjà, de la recherche aux clics et à la saisie.**
 
 [English](README.md) · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · Français
 
 > Ce document est une traduction. En cas de différence, la [version coréenne](README.ko.md) fait foi.
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20(64--bit)%20%7C%20macOS%2013%2B-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/openside?lang=fr)
 
@@ -33,7 +33,7 @@ Pour l'IA elle-même, connectez-vous avec un compte ChatGPT que vous possédez d
 - **Se souvient de ce que vous avez vu** — une fois activé, il enregistre les pages que vous lisez et les applis que vous utilisez, et s'en sert pour des questions comme « l'article que j'ai lu hier ».
 - **À l'aise sur les sites courants** — la publication sur Naver Blog, Tistory et Blogger, Gmail, Google Docs et Sheets, Notion, Slack, YouTube, Naver Real Estate et d'autres sont traités avec des méthodes propres à chaque site, plus rapides et plus précises.
 - **Plusieurs comptes IA** — enregistrez une connexion ChatGPT (Codex) et des clés API Claude, OpenAI et Gemini, et passez de l'un à l'autre directement dans le chat.
-- **Mode sombre · 9 langues** — coréen, anglais, japonais, chinois, russe, italien, français, espagnol et arabe.
+- **Mode sombre · 22 langues** — coréen, anglais, japonais, chinois (simplifié et traditionnel), espagnol, français, allemand, russe, arabe, etc.
 
 ## Téléchargement / Installation
 
@@ -41,8 +41,11 @@ Pour l'IA elle-même, connectez-vous avec un compte ChatGPT que vous possédez d
 |---|---|
 | Installateur | [Télécharger](https://down.kilho.net/openside?lang=fr) |
 | Portable (ZIP) | [Télécharger](https://down.kilho.net/openside?lang=fr&nosetup) |
+| macOS (dmg) | [Télécharger](https://down.kilho.net/openside?lang=fr&mac) |
 
 L'installateur lance OpenSide dès la fin de l'installation. Pour l'édition portable, décompressez le ZIP et lancez `OpenSide.exe`. Les deux éditions ont les mêmes fonctions ; seule la valeur initiale de **Lancer à l'ouverture de session** diffère — activée pour l'installateur, désactivée pour l'édition portable.
+
+Sur macOS, ouvrez le dmg et faites glisser OpenSide dans le dossier Applications. Sur Mac, OpenSide travaille dans Chrome : activez **Remote debugging** comme l'indique la fenêtre de connexion, saisissez le numéro de port affiché sur cette page et cliquez sur **Connecter**.
 
 ## Utilisation
 
@@ -165,7 +168,7 @@ Cliquez sur **Paramètres** pour ouvrir la fenêtre **Préférences**. Les chang
 
 | Onglet | Options |
 |---|---|
-| **Général** | **Toujours au premier plan** · **Thème** (Auto · Clair · Sombre) · **Langue** (Auto ou l'une des 9 langues) · **Lancer à l'ouverture de session** |
+| **Général** | **Toujours au premier plan** · **Thème** (Auto · Clair · Sombre) · **Langue** (Auto ou l'une des 22 langues) · **Lancer à l'ouverture de session** |
 | **Compte** | Ajouter, supprimer et connecter des comptes IA · choisir le compte par défaut |
 | **À distance** | Associer ou dissocier Telegram |
 | **Historique** | Activer l'enregistrement des pages et applis · pause · sites et applis à ne pas enregistrer · tout supprimer |
@@ -175,8 +178,8 @@ Avec **Langue** sur **Auto**, OpenSide suit la langue d'affichage de Windows. Si
 
 ## Configuration requise
 
-- Windows 10 · Windows 11 (64 bits)
-- Google Chrome ou Microsoft Edge
+- Windows 10 · Windows 11 (64 bits), ou macOS 13 ou version ultérieure (Intel · Apple Silicon)
+- Google Chrome ou Microsoft Edge (Chrome sur macOS)
 - Un compte ChatGPT, ou une clé API Claude, OpenAI ou Gemini
 - Une connexion internet
 
